@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tích Hợp Zalo Cá Nhân Thành Trợ Lý Cá Nhân Hóa - Anh Lập Trình</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css?v=20251223_140342" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css?v=20251223_140342">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Anh Lập Trình" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <span class="logo-text" style="display:none;">Anh Lập Trình</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu">
+                <a href="#home">Trang chủ</a>
+                <a href="#about">Về Anh Lập Trình</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-tagline">
+                <h2>TÍCH HỢP ZALO CÁ NHÂN THÀNH TRỢ LÝ CÁ NHÂN HÓA</h2>
+            </div>
+            <h1 class="hero-title">Chồng Giỏi AI: <strong>Biến Zalo Thành Trợ Lý Cá Nhân Hóa A.I Với N8n</strong></h1>
+            <p class="hero-subtitle">Đừng chỉ dùng Zalo cho việc chat chít trao đổi - hãy biến nó thành trợ lý của bạn!</p>
+            <p class="hero-description">Hiện nay mình sử dụng Zalo chủ yếu cho công việc, còn bạn bè thì liên lạc qua Facebook. Zalo rất tiện để chat, chia sẻ tài liệu và họp nhóm nhanh chóng, nhưng với mình như vậy vẫn chưa đủ. Vì thế, mình đã tạo thêm một tài khoản Zalo làm trợ lý cá nhân. Tài khoản này được tích hợp chatbot để giúp tìm kiếm tài liệu, đọc thông tin, xử lý và truy xuất dữ liệu. Thậm chí nó còn có thể tự động tạo hình ảnh và gửi email theo lịch trình đã đặt.</p>
+            <a href="#register" class="cta-button">Bắt đầu</a>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="main-content">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="section-title">Tại sao cần tích hợp Zalo với AI?</h2>
+                
+                <div class="example-box">
+                    <h3 style="color: #00786a; margin-bottom: 15px;">Đi làm cũng Zalo, về nhà cũng Zalo, lúc ăn cũng Zalo mà chỉ để chat chit, thật vô nghĩa!</h3>
+                    <p>Thời giờ chat thôi không đủ, bạn phải biết sử dụng Zalo để có thể hỗ trợ tối đa trong công việc thông qua nền tảng N8N và AI. Bạn cần phải suy nghĩ, tư duy sao cho hiệu quả tốt nhất trong công việc.</p>
+                    <p>Bạn có thể dùng Zalo để tương tác với các nền tảng AI hiện nay thông qua câu chat chẳng hạn. Chỉ cần ra lệnh trên Zalo là đã có thể làm được cho bạn rồi, khỏi cần phải mở ứng dụng đó lên như truyền thống mà bạn ra lệnh ngay trên Zalo với sự hỗ trợ của AI agent.</p>
+                    <p class="example-note">Đừng nghĩ về AI như một thứ siêu phàm có thể làm được những điều con người không làm được—AI không có khả năng đó. Thay vào đó, hãy tập trung ứng dụng AI vào những công việc đơn giản hằng ngày trước, chẳng hạn như tạo một trợ lý AI Zalo cá nhân.</p>
+                </div>
+
+                <h3 style="color: #00786a; margin-top: 30px; margin-bottom: 20px;">Ví dụ về cách anh em ứng dụng vào công việc:</h3>
+                <ul class="techniques-list">
+                    <li><strong>Tích hợp chatbot vào Zalo cá nhân:</strong> Tự động trả lời khi có người hỏi (dĩ nhiên dữ liệu đã được đào tạo)</li>
+                    <li><strong>Kiểm tra và lưu trữ dữ liệu:</strong> Truy cập Zalo cá nhân và kiểm tra dữ liệu trong các tin nhắn. Ví dụ khi có tin nhắn chốt đơn, mình có thể lưu thành data riêng.</li>
+                    <li><strong>Tư vấn khách hàng:</strong> Khi khách hỏi về sản phẩm, mình có thể tư vấn (sau này sẽ dùng AI). Nếu đơn hàng chưa có ảnh chuyển khoản, hệ thống sẽ tự động cập nhật trạng thái "chưa thanh toán".</li>
+                    <li><strong>Tóm tắt cuộc trò chuyện:</strong> Cuộc trò chuyện của bạn với khách hàng hay với sếp qua Zalo sẽ được AI tóm tắt và ghi lại những ý chính.</li>
+                    <li><strong>Trợ lý tùy chỉnh:</strong> Biến Zalo thành trợ lý tùy chỉnh, có thể liên kết với các ứng dụng khác, bạn không cần truy cập vào ứng dụng đó mà chỉ cần làm việc trên Zalo.</li>
+                    <li><strong>Đọc tài liệu:</strong> Trợ lý Zalo có thể đọc được google sheet, excel, word, pdf... truy xuất thông tin khi cần.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Use Section -->
+    <section class="main-content">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="section-title">Dưới đây là cách bạn có thể tận dụng Zalo và n8n để biến Zalo thành một trợ lý cá nhân thông minh:</h2>
+                
+                <ul class="techniques-list">
+                    <li><strong>Tự động hóa công việc cá nhân:</strong> Sử dụng n8n để kết nối Zalo với các ứng dụng như Google Calendar, Google Sheets hoặc Todoist. Tự động gửi tin nhắn nhắc nhở lịch hẹn, danh sách việc cần làm, hoặc cập nhật tiến độ công việc qua Zalo mà không cần thao tác thủ công. Ví dụ: Nhận thông báo qua Zalo mỗi sáng về lịch trình trong ngày.</li>
+                    
+                    <li><strong>Quản lý thông tin cá nhân hiệu quả:</strong> Kết nối Zalo với hệ thống lưu trữ dữ liệu (như Google Sheets hoặc Airtable) để tự động ghi lại thông tin từ tin nhắn, chẳng hạn như ghi chú từ cuộc trò chuyện hoặc cập nhật danh bạ. Điều này giúp bạn dễ dàng theo dõi thông tin cá nhân mà không cần nhập tay.</li>
+                    
+                    <li><strong>Tạo trợ lý ảo thông minh riêng:</strong> Tích hợp n8n với các mô hình AI như ChatGPT hoặc Gemini để xây dựng một chatbot Zalo cá nhân hóa. Trợ lý này có thể trả lời câu hỏi, cung cấp gợi ý dựa trên sở thích cá nhân (như gợi ý nhà hàng yêu thích) hoặc thậm chí hỗ trợ học tập bằng cách giải đáp thắc mắc nhanh chóng.</li>
+                    
+                    <li><strong>Chatbot cá nhân hóa trải nghiệm:</strong> Xây dựng chatbot Zalo với khả năng phân tích dữ liệu cá nhân (như lịch sử tìm kiếm, sở thích, hoặc thói quen) để đưa ra phản hồi phù hợp. Ví dụ: Nếu bạn thích chạy bộ, chatbot có thể gửi lời nhắc qua Zalo về thời gian chạy hoặc gợi ý tuyến đường mới dựa trên thời tiết.</li>
+                    
+                    <li><strong>Tiết kiệm thời gian, tăng năng suất:</strong> Tự động hóa các tác vụ lặp đi lặp lại như gửi email, cập nhật lịch, hoặc trả lời tin nhắn thông thường qua Zalo. Điều này giúp bạn tập trung vào những công việc quan trọng hơn, giảm căng thẳng và tối ưu hóa thời gian.</li>
+                    
+                    <li><strong>Phản hồi phù hợp với cá nhân:</strong> Dựa trên dữ liệu từ các ứng dụng khác (như lịch làm việc, danh sách việc cần làm), n8n có thể giúp Zalo gửi những tin nhắn được cá nhân hóa, ví dụ: "Hôm nay bạn có cuộc họp lúc 10h, cần chuẩn bị gì không?".</li>
+                    
+                    <li><strong>Tích hợp đa nền tảng:</strong> n8n cho phép kết nối Zalo với hàng loạt dịch vụ như Gmail, Notion, hoặc Trello. Bạn có thể tự động đồng bộ thông tin giữa các ứng dụng này, ví dụ: Lưu ý từ tin nhắn Zalo vào Notion hoặc thêm nhiệm vụ từ Zalo vào Trello.</li>
+                    
+                    <li><strong>Giảm sai sót, tăng độ chính xác:</strong> Tự động hóa giúp loại bỏ lỗi do nhập liệu thủ công, đảm bảo thông tin được xử lý chính xác. Ví dụ: Ghi chú từ Zalo được tự động lưu vào Google Sheets mà không cần bạn phải sao chép.</li>
+                    
+                    <li><strong>Nâng cao trải nghiệm cá nhân:</strong> Với phản hồi nhanh chóng và chính xác từ trợ lý Zalo, bạn sẽ cảm thấy được hỗ trợ như có một người trợ lý thực thụ. Điều này không chỉ giúp công việc trơn tru hơn mà còn mang lại cảm giác tiện lợi và hiện đại.</li>
+                </ul>
+
+                <div class="example-box" style="margin-top: 30px;">
+                    <p class="example-note" style="margin: 0;">Cuộc sống vô cùng nhàm chán nếu phải liên tục trả lời những câu hỏi lặp đi lặp lại. Hãy để trợ lý AI đảm nhận việc đó!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training AI Section -->
+    <section class="main-content">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="section-title">Trợ Lý Chuyên Môn</h2>
+                
+                <div class="example-box">
+                    <h3 style="color: #00786a; margin-bottom: 15px;">"Hãy thử tưởng tượng: bạn có một trợ lý chuyên môn dành riêng cho công việc của mình!</h3>
+                    <p>Bạn chỉ cần cung cấp dữ liệu, trợ lý sẽ hiểu, trả lời, thậm chí tư vấn bất cứ điều gì bạn cần. Mọi thắc mắc đều được giải đáp ngay lập tức, theo cách thông minh nhất!"</p>
+                    <p>Bạn sẽ thường xuyên nảy ra ý tưởng về các trợ lý AI mới mỗi khi có thời gian rảnh. Việc tạo ra các trợ lý diễn ra một cách tự nhiên theo cảm hứng, và những trợ lý này sẽ trở thành di sản quý giá được truyền lại cho thế hệ sau, cùng với kinh nghiệm chuyên môn và uy tín trong lĩnh vực mà bạn đang làm.</p>
+                    <p class="example-note">Những kiến thức và kinh nghiệm quý báu bạn tích lũy được sẽ được lưu trữ trong trợ lý này. Bạn có thể chia sẻ nó với bất kỳ ai - khi họ gặp khó khăn, chỉ cần gửi link trợ lý để họ có thể nhận được câu trả lời ngay lập tức (dựa trên thông tin bạn đã cung cấp cho trợ lý trước đó).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular AI Assistants Section -->
+    <section class="main-content">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="section-title">Các Trợ Lý Zalo Phổ Biến</h2>
+                <p style="margin-bottom: 30px; text-align: justify;">(Bạn có thể đào tạo trợ lý làm việc theo ý của chính mình)</p>
+                
+                <ul class="techniques-list">
+                    <li><strong>Trợ Lý Trích Dẫn Thông Tin, Cập Nhật Tiến Độ.... Chính Xác:</strong> Trên mạng giờ đầy rẫy thông tin, nhưng để tìm được cái chính xác thì chẳng dễ chút nào. Chẳng hạn, mỗi lần tôi đi công trình hay làm việc với công an địa phương, muốn xin số điện thoại hay thông tin liên lạc của họ để tiện trao đổi, nhiều khi hỏi mãi mà vẫn mù mờ, chẳng đâu vào đâu. Mà anh em trong đội thì cứ cần là hỏi ngay, không có thông tin thì lúng túng lắm. Thế nên tôi nghĩ ra cách cập nhật hết mấy thông tin này vào trợ lý AI, kiểu như một cuốn sổ tay sống ấy. Sau này, hễ ai hỏi gì – ví dụ đơn giản như "Số điện thoại công an ở chỗ này, tên người liên hệ, địa chỉ cụ thể đâu?" – thì trợ lý sẽ nhả ra câu trả lời ngon ơ, nhanh gọn lẹ, khỏi phải mất công tìm kiếm lung tung nữa. Tiện lợi mà hiệu quả, đúng không?</li>
+                    
+                    <li><strong>Trợ Lý Hướng Dẫn Quy Trình, Sản Phẩm Mới:</strong> Công ty thay đổi xoành xoạch, ngày nào cũng phải cắm đầu cắm cổ đào tạo quy trình cho nhân viên mới. Mà khổ nhất là mấy câu hỏi quen thuộc, lặp đi lặp lại đến phát ngán – trả lời một lần chưa xong, quay đi quay lại đã thấy hỏi tiếp, muốn nổi điên luôn! Nhưng từ ngày có trợ lý AI này, đời mình như lên hương. Mình chỉ cần ném một cái link cho đồng nghiệp hay nhân viên, bảo "Đây, dùng đi!" là xong. Họ gặp vấn đề gì, thắc mắc chỗ nào, cứ nhắn tin hỏi trợ lý, nó trả lời ngay tắp lự, chính xác, rõ ràng. Ôi, cảm giác đó đúng là sướng không tả nổi, như trút được cả tấn gánh nặng khỏi vai, các bạn ạ!</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Method Section -->
+    <section class="learning-method">
+        <div class="container">
+            <h2 class="section-title">Về phương pháp học:</h2>
+            <p style="margin-bottom: 30px; text-align: justify;">Khóa học được truyền tải qua video nên anh em có thể tham gia bất kỳ lúc nào. Nếu gặp khó khăn, bên mình sẽ hỗ trợ qua Ultraview, Zalo hoặc Zoom. Anh em đăng ký là vào học ngay và luôn.</p>
+            <p style="margin-bottom: 30px; text-align: justify;">Học theo hình thức "vướng đâu gỡ đó" nên rất phù hợp với anh em tay ngang học để ứng dụng vào công việc. Dĩ nhiên với cách học này, giai đoạn đầu anh em sẽ vất vả vì không quen với ứng dụng. Mà dĩ nhiên là học hay làm cái gì cũng vậy, giai đoạn đầu phải chấp nhận cày thôi anh em nhé!</p>
+            <p style="margin-bottom: 30px; text-align: justify;">Những người học chủ yếu cần cho công việc thôi chứ không buôn bán gì: tạo ra các workflows theo ý tưởng của các bạn để phục vụ chính công việc của của bản thân.</p>
+        </div>
+    </section>
+
+    <!-- Who Is This For Section -->
+    <section class="main-content">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="section-title">Khóa học dành cho:</h2>
+                <p style="margin-bottom: 30px; text-align: justify;">Khóa học dành cho tất cả những ai đam mê tự động hóa công việc, thích tạo chương trình theo ý tưởng của chính mình mà không cần gõ code, và mong muốn áp dụng AI và tự động hóa vào công việc hàng ngày - từ những việc đơn giản đến những ứng dụng nâng cao.</p>
+                
+                <ul class="techniques-list">
+                    <li><strong>Freelancer:</strong> Tự động hóa quy trình làm việc, quản lý tin nhắn và tạo nhiều trợ lý AI không giới hạn</li>
+                    <li><strong>Người yêu thích tự động hóa:</strong> Học tạo workflows, kết nối nhiều ứng dụng và tùy chỉnh trợ lý AI theo nhu cầu</li>
+                    <li><strong>Người làm khởi nghiệp:</strong> Tự động hóa marketing, bán hàng và chăm sóc khách hàng 24/7 với chi phí thấp</li>
+                    <li><strong>Người chuẩn bị khởi nghiệp:</strong> Xây dựng hệ thống tự động từ đầu với template có sẵn và tùy biến theo nhu cầu</li>
+                    <li><strong>Các quản lý, nhân viên trong công ty:</strong> Tự động hóa các công việc lặp đi lặp lại qua Zalo</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You Get Section -->
+    <section class="main-content">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="section-title">Giá trị nhận được từ khóa học</h2>
+                
+                <ul class="techniques-list">
+                    <li>Tiết kiệm thời gian quản lý và trả lời tin nhắn Zalo</li>
+                    <li>Tăng hiệu quả chăm sóc khách hàng 24/7</li>
+                    <li>Tự động hóa các quy trình marketing và bán hàng</li>
+                    <li>Giảm chi phí nhân sự cho việc trả lời tin nhắn</li>
+                    <li>Để đột phá trong công việc hiện tại, việc ứng dụng A.I sẽ giúp bạn có thêm hứng thú với công việc, có nhiều thời gian cho những hoạt động khác, và làm cho hành trình khởi nghiệp trở nên dễ dàng hơn.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Content Section -->
+    <section class="main-content">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="section-title">Những gì bạn được học:</h2>
+                
+                <ul class="techniques-list">
+                    <li>Cài đặt và cấu hình n8n</li>
+                    <li>Tạo và quản lý workflows</li>
+                    <li>Kết nối n8n với các ứng dụng</li>
+                    <li>Tự động hóa quy trình công việc</li>
+                    <li>Sử dụng các node và API trong n8n</li>
+                    <li>Tạo webhook và API call</li>
+                    <li>Tích hợp AI và chatbot với n8n</li>
+                    <li>Tối ưu hóa quy trình làm việc</li>
+                    <li>Tương tác với Zalo thông qua n8n để tự động hóa tin nhắn</li>
+                    <li>Tích hợp API Zalo để gửi và nhận tin nhắn</li>
+                    <li>Xây dựng luồng xử lý tin nhắn Zalo tự động</li>
+                    <li>Quản lý danh sách chat và người dùng Zalo</li>
+                    <li>Tạo các kịch bản phản hồi tin nhắn thông minh</li>
+                    <li>Thiết lập hệ thống thông báo qua Zalo</li>
+                    <li>Phát triển chatbot AI cho Zalo</li>
+                    <li>Tối ưu hóa quy trình tương tác với khách hàng qua Zalo</li>
+                </ul>
+
+                <div class="example-box" style="margin-top: 30px;">
+                    <p>Chúng tôi có các video hướng dẫn để bạn tạo trợ lý, cực kỳ dễ làm, bạn không cần biết lập trình, cũng không cần phải là giỏi công nghệ, Bạn vẫn có thể tạo ra hàng trăm trợ lý A.I riêng cho chính bạn</p>
+                    <p class="example-note">Nếu bạn gặp khó khăn trong quá trình thực hiện, chúng tôi sẽ hỗ trợ liên tục qua Zalo, Ultraview và Zoom cho đến khi bạn hoàn thành.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructor Section -->
+    <section class="instructor" id="about">
+        <div class="container">
+            <h2 class="section-title">Bạn Sẽ Nhận Được Gì Khi Đăng Ký ?</h2>
+            
+            <div class="instructor-card">
+                <div class="instructor-wrapper">
+                    <div class="instructor-image">
+                        <img src="ALT_anh.png" alt="Anh Lập Trình - Nhuần" class="instructor-photo">
+                    </div>
+                    <div class="instructor-content">
+                        <p>Phương pháp giảng dạy là "Cứ ứng dụng vào công việc đi, vướng thì gỡ," nhấn mạnh việc thực hành trước, sau đó giải quyết vấn đề khi gặp phải. Phương pháp này khuyến khích học viên bắt đầu ngay với các tác vụ thực tế, dù chưa hiểu rõ lý thuyết, vì qua quá trình làm việc, lý thuyết sẽ dần dần sáng tỏ, kệ mợ mọi thứ đi.</p>
+                        
+                        <p>Tôi giúp bạn tạo ra các chương trình phục vụ công việc của chính các bạn mà không cần biết lập trình thông qua các nền tảng nổi tiếng nhất hiện nay như N8N, Make...</p>
+                    </div>
+                </div>
+                <div class="instructor-content-bottom">
+                    <p><strong>Phải nhấn mạnh rằng:</strong></p>
+                    <p>Tôi không phải là chuyên gia dạy làm giàu, mà là người chuyên về tự động hóa công việc với AI.</p>
+                    
+                    <p>Tôi bắt đầu khởi nghiệp vào năm 2020, khi còn là một nhân viên văn phòng bình thường tại một công ty xây dựng. Công việc lặp đi lặp lại khiến tôi chán nản, và mặc dù đã có tuổi, tôi vẫn chưa từng được sếp cân nhắc vào những vị trí cao hơn. Điều đó khiến tôi cảm thấy ngại ngùng, đặc biệt là khi làm việc chung với các đồng nghiệp trẻ hơn, năng động hơn.</p>
+                    
+                    <p>Tôi hiểu rằng mình không thể mãi như thế. Thật lòng mà nói, nếu nghỉ rồi quay lại, chắc cũng chẳng có công ty nào chịu nhận tôi hoặc sẽ chỉ trả mức lương ngang với sinh viên mới ra trường. Vậy nên tôi quyết định liều một phen khởi nghiệp với tinh thần không còn đường lùi.</p>
+                    
+                    <p class="instructor-summary">Cách học "thực hành trước, lý thuyết sau - vướng đâu gỡ đó" đã thay đổi cả cuộc đời mình và có thể sẽ thay đổi cuộc đời bạn. Đừng lăn tăn quá nhiều, cứ mạnh dạn thực hành trước đã. Nếu không cần thiết, bạn thậm chí không cần học lý thuyết - qua thực hành nhiều, bạn sẽ tự hiểu thôi. Và mình sẽ chia sẻ với các bạn trong chương trình này.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="course-content">
+        <div class="container">
+            <h2 class="section-title">Câu Hỏi Thường Gặp</h2>
+            
+            <div class="content-section">
+                <h3>Yếu công nghệ có học được không?</h3>
+                <p>Ai mới đầu mà không yếu công nghệ, thậm chí là số 0, nhưng cứ học tập thực hành nhiều sẽ quen thôi.</p>
+                <p>Vướng thì gỡ thôi — chỉ là giai đoạn đầu anh em mình không quen với nền tảng nên sẽ vật vã.</p>
+                <p>Thực ra học cái gì mới đầu cũng vậy hết, anh em thấy khó là vì anh em không quen, còn quen rồi thì mọi thứ chỉ là chuyện nhỏ.</p>
+            </div>
+
+            <div class="content-section">
+                <h3>Khóa học có khó không?</h3>
+                <p>"Khóa học này không phải là lớp dạy làm giàu hay truyền cảm hứng, nên anh em đừng hỏi tại sao không miễn phí. Tôi không có tài hùng biện để thuyết phục bạn 'tự nguyện' bỏ tiền vào túi tôi. Đây là một khóa học chuyên môn thực tế, đi thẳng vào vấn đề mà không hứa hẹn những viễn cảnh hào nhoáng để bạn đăng ký thêm các khóa học khác.</p>
+                <p>Mà nhiều khi bỏ một chút tài chính, anh em sẽ có động lực học tập nghiêm túc hơn – học để đáng đồng tiền bát gạo, học để ra kết quả thực tế. Còn nếu bạn muốn học miễn phí, tôi sẵn sàng: hãy ghé kênh YouTube của tôi, nơi tôi chia sẻ nhiều kiến thức tự động hóa hoàn toàn miễn phí.</p>
+                <p>Vâng, mình nói điều này có thể gây tranh cãi, nhưng nếu bạn sẵn sàng đầu tư tài chính để học thì tin mình đi - bạn đã nắm được một nửa kiến thức khóa học rồi.</p>
+                <p>Ai mới đầu khi học tập hay làm quen với một công việc mới mà không vất vả? Mọi người cho mình xin một chương trình mà vô học cái là được liền, có tiền liền xem đi? Giới thiệu mình học với!</p>
+                <p>Chắc chỉ có các khóa học dạy làm giàu luôn tô vẽ những tương lai tốt đẹp hay mình quen gọi là "bay" mới càng học càng thấy sướng thôi.</p>
+                <p>Còn lại giai đoạn đầu vì bạn không quen với nền tảng chắc chắn sẽ vật vã. Mình ví dụ: bạn đang xài quen điện thoại Android mà giờ bạn chuyển sang iOS cũng khó chịu, chứ đừng nói gì tới chuyện học một cái gì đó mới.</p>
+                <p>Vậy nên giai đoạn đầu bắt buộc các bạn phải vượt qua, học cho bằng được để quen với nền tảng.</p>
+                <p>Nhiều bạn hỏi khóa học có miễn phí không? Xin thưa chẳng có gì miễn phí, mà có miễn phí bạn cũng chẳng học được đâu, vì bạn đâu trả giá gì để đổi lấy khóa học. Bạn phải bỏ chút tài chính mới chịu cày, chịu học.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="register">
+        <div class="container">
+            <div class="pricing-card">
+                <form class="registration-form" id="registrationForm">
+                    <h2 class="pricing-title-before-form">Học phí là 1.420.000 VNĐ và bạn phải hoàn tất học phí mới có thể truy cập khóa học</h2>
+                    <p class="pricing-note">(nếu bạn sợ lừa đảo, lùa gà bạn có thể check thông tin bên mình trước rồi hãy đăng ký)</p>
+                    <p class="guarantee-text">Nếu đã xác định học thì hãy đăng ký ngay để áp dụng vào công việc. Một khoản đầu tư nhỏ sẽ tạo động lực để anh em cố gắng hơn. Hãy học tập và tận dụng kiến thức để đạt kết quả tốt nhất, đừng vì tiếc tiền mà cứ trì hoãn mãi.</p>
+                    <div class="form-group">
+                        <label for="name">Tên*</label>
+                        <input type="text" id="name" name="name" placeholder="Họ Và tên" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="Nhập Email Của Bạn" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Số Điện Thoại</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Nhập Số Điện Thoại">
+                    </div>
+                    <button type="submit" class="submit-btn">Đăng Ký Ngay</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <h2>Tự Động Hóa Cuộc Sống Với AI</h2>
+            <h3 class="footer-motto">Hướng dẫn tạo trợ lý ảo cho Cá Nhân Hay doanh nghiệp.</h3>
+            <div class="contact-info">
+                <p><strong>Liên Hệ</strong></p>
+                <p><strong>Email:</strong> contact@anhlaptrinh.com</p>
+                <p><strong>Điện thoại:</strong> 0914972102</p>
+                <p><strong>Công Ty TNHH Anh Lập Trình</strong></p>
+                <p><strong>Mã số thuế:</strong> 0318822989</p>
+                <p><strong>Địa chỉ:</strong> Lầu 5: Toà Nhà ST. MORITZ, 1014 Phạm Văn Đồng, P, Thủ Đức, Thành phố Hồ Chí Minh</p>
+            </div>
+            
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <h4>Kết nối với chúng tôi</h4>
+                <div class="social-icons-row">
+                    <a href="https://www.youtube.com/@pyanpython" target="_blank" rel="noopener noreferrer" class="social-link youtube-link">
+                        <span class="social-icon"><i class="fab fa-youtube"></i></span>
+                        <span class="social-text">Anh Lập Trình</span>
+                    </a>
+                    <a href="https://www.facebook.com/tudonghoanocode/" target="_blank" rel="noopener noreferrer" class="social-link facebook-link">
+                        <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+                        <span class="social-text">Anh Lập Trình</span>
+                    </a>
+                    <a href="https://www.facebook.com/pythonchonguoilon/" target="_blank" rel="noopener noreferrer" class="social-link facebook-link">
+                        <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+                        <span class="social-text">Anh Lập Trình - Trợ Lý A.I</span>
+                    </a>
+                    <a href="https://www.facebook.com/PythonVBARevitExcelAutocad/" target="_blank" rel="noopener noreferrer" class="social-link facebook-link">
+                        <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+                        <span class="social-text">Anh Lập Trình - Python</span>
+                    </a>
+                </div>
+            </div>
+            
+            <p class="copyright">&copy; 2025. All rights reserved.</p>
+            <p class="footer-motto" style="margin-top: 20px;">Cứ ứng dụng vào công việc đi, vướng thì gỡ</p>
+        </div>
+    </footer>
+
+    <!-- EmailJS Library -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js?v=20251223_140342"></script>
+    <!-- Email Config -->
+    <script src="email-config.js?v=20251223_140342"></script>
+    <!-- n8n Webhook Config -->
+    <script src="n8n-config.js?v=20251223_140342"></script>
+    <script src="script.js?v=20251223_140342"></script>
+</body>
+</html>
+
